@@ -649,7 +649,7 @@ class Main:
 "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko",
 		])
 		sys.stdout.write(
-			"\r [+]%s> /[JAHIDUL]>%s -> [OK]:-%s - [CP]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [+]%s> /[RAJ]>%s -> [OK]:-%s - [CP]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
